@@ -1,0 +1,33 @@
+-Mapa;
+	-FogWar;
+	-Criação do mapa;
+	-Fim de level.
+-Câmera;
+
+-Unidades:
+	-Movimentação (I.A.);
+	-Seleção;
+	-Agrupamento;
+	-Ataque;
+	-Coleta de recursos;
+-Construção:
+	-Criação;
+	-Seleção;
+	-Agrupamento;
+	-Upgrade;
+	-Geração de recursos;
+-Recursos:
+	-Quantidade máxima;
+	-Armazenamente/Utilização;
+	-Geração no mapa;
+	-Coleta;
+Blender:
+	-Modelo estatico;
+	-Modelo Animado;
+	-CG;
+	-Ambiente e vegetação;
+
+Sonoplastia;
+
+Gimp:
+	-Criar texturas estilo cartoon;
