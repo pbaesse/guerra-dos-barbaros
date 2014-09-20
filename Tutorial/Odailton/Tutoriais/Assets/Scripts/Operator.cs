@@ -9,7 +9,7 @@ public class Operator : MonoBehaviour {
 	private Vector3 click_inicial = -Vector3.one;
 	private static Vector3 irPara = Vector3.zero;
 	private static List<string> passables = new List<string>() { "Floor" };
-
+	
 	// Use this for initialization
 	void CheckCamera() 
 	{
@@ -68,14 +68,16 @@ public class Operator : MonoBehaviour {
 		return irPara;
 	}
 
-	private void OnGui()
+	private void OnGUI()
 	{
-		if (click_inicial != -Vector3.one)
+		if (click_inicial != -Vector3.one) 
 		{
-			GUI.color = new Color(1, 1, 1, 0.5f);
-			GUI.DrawTexture(selection, selecionadorHigh);
+				GUI.color = new Color (1, 1, 1, 0.5f);
+				GUI.DrawTexture (selection, selecionadorHigh);
 		}
+
 	}
+	
 
 
 	public static float InvertMouseY(float y)
@@ -90,6 +92,5 @@ public class Operator : MonoBehaviour {
 		CleanUp ();
 	
 	}
-
-
 }
+	

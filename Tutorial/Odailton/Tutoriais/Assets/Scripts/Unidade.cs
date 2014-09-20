@@ -76,5 +76,14 @@ public class Unidade: MonoBehaviour {
 		clicada = false;
 	}
 
+	void OnGUI()
+	{
+		if (GUI.Button (new Rect (0, 40, 400, 40), "Quartel Jandui")) 
+		{
+			BuildingPlacer alocador = new BuildingPlacer();
+			alocador.Create();
+		}
+
+	}
 	
 }
