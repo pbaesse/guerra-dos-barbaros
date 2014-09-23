@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Operator.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Unidade.cs">
     <Files>
-      <File FileName="Assets\Scripts\BuildingPlacer.cs" Line="34" Column="5" />
+      <File FileName="Assets\Scripts\BuildingPlacer.cs" Line="37" Column="17" />
+      <File FileName="Assets\Scripts\BuildingPlacer.cs" Line="69" Column="1" />
       <File FileName="Assets\Scripts\Operator.cs" Line="13" Column="1" />
-      <File FileName="Assets\Scripts\Unidade.cs" Line="84" Column="4" />
+      <File FileName="Assets\Scripts\Unidade.cs" Line="83" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

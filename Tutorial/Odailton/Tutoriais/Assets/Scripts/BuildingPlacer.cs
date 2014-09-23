@@ -3,21 +3,21 @@ using System.Collections;
 
 public class BuildingPlacer : MonoBehaviour 
 {
-	private GameObject _building = null;
+	private static GameObject _building = null;
 	public GameObject model = new GameObject();
 	
-	public bool IsPlacing 
+	public static bool IsPlacing 
 	{
 		get { return _building != null; }
 	}
 	
-	public void Create ()
+	public static void Create ()
 	{
 		DestroyCurrent ();
 		InstantiateNewBuilding (string.Empty); // incompleto
 	}
 	
-	public void DestroyCurrent ()
+	public static void DestroyCurrent ()
 	{
 		if (_building != null) 
 		{
@@ -26,18 +26,18 @@ public class BuildingPlacer : MonoBehaviour
 		}
 	}
 	
-	private void InstantiateNewBuilding (string path)
+	private static void InstantiateNewBuilding (string path)
 	{
 		// buscar a construção disponivel no caminho passado como parametro
 		//_building = GameObject.CreatePrimitive (PrimitiveType.Cube); // incompleto
-		_building = (GameObject) Instantiate (model);
-		//_building.GetComponent<BoxCollider> ().enabled = false;
+		_building = GameObject.CreatePrimitive (PrimitiveType.Cube);
+		_building.GetComponent<BoxCollider> ().enabled = false;
 	}
 	
-	private void PlaceBuilding ()
+	private static void PlaceBuilding ()
 	{
 		//GameObject newBuilding = GameObject.CreatePrimitive (PrimitiveType.Cube);
-		GameObject newBuilding = (GameObject) Instantiate (model);
+		GameObject newBuilding = _building = GameObject.CreatePrimitive (PrimitiveType.Cube);
 		newBuilding.transform.position = _building.transform.position;
 
 	}
