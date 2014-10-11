@@ -22,7 +22,7 @@ public class Unidade: MonoBehaviour {
 		}
 
 		if (selecionada)
-						renderer.material.color = Color.red;
+						renderer.material.color = Color.blue;
 		else 
 			renderer.material.color = Color.white;
 
@@ -75,14 +75,6 @@ public class Unidade: MonoBehaviour {
 						selecionada = true;
 		clicada = false;
 	}
-
-	void OnGUI()
-	{
-		if (GUI.Button (new Rect (0, 40, 400, 40), "Quartel Jandui")) 
-		{
-			BuildingPlacer.Create();
-		}
-
-	}
 	
+
 }
