@@ -31,6 +31,17 @@ public class PlacebleBuilding : MonoBehaviour {
 					Instantiate((GameObject)unidades[i]);
 				}
 			}
+
+			if(GUI.Button(new Rect(Screen.width/10, Screen.height/5+Screen.height/10,100, 30), "Atk"))
+			{
+				if(Unidade.Tipo == "Capsula")
+				{
+					Debug.Log(Unidade.Ataque);
+					Unidade.Ataque++;
+					Debug.Log(Unidade.Ataque);
+				}
+			}
+
 		
 		}
 	}

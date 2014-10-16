@@ -3,12 +3,32 @@ using System.Collections;
 
 public class Unidade: MonoBehaviour {
 	
+	private static int ataque = 10;
+	private static int armadura = 10;
+	private static string tipo = "Capsula";
+
 	private bool selecionada;
 	private bool clicada = false;
 	private Vector3 mover = Vector3.zero;
 	private float floorOffSet = 1;
 	private float speed = 5;
 	private float stopDistanceOffSet = 0.5f;
+
+	public static string Tipo
+	{
+		get { return tipo; }
+		set { tipo = value; }
+	}
+	public static int Ataque
+	{
+		get { return ataque; }
+		set { ataque = value; }
+	}
+	public static int Armadura 
+	{
+		get { return armadura; }
+		set { armadura = value; }
+	}
 
 	public virtual void ActionCallback(Vector3 target){ }
 

@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Constructs\PlacebleBuilding.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Unidade.cs">
     <Files>
-      <File FileName="Assets\Scripts\Constructs\PlacebleBuilding.cs" Line="29" Column="7" />
-      <File FileName="Assets\Scripts\Constructs\BuildingManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Constructs\BuildingPlacement.cs" Line="57" Column="6" />
+      <File FileName="Assets\Scripts\Constructs\PlacebleBuilding.cs" Line="10" Column="31" />
+      <File FileName="Assets\Scripts\Unidade.cs" Line="33" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
