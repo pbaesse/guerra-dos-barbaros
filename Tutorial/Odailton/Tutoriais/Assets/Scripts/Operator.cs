@@ -84,7 +84,20 @@ public class Operator : MonoBehaviour {
 	{
 		return Screen.height - y;
 	}
-	
+
+	public bool get_nomes(){
+		RaycastHit hit;
+		Ray r = Camera.main.ScreenPointToRay(Input.mousePosition);
+		string nomes = "";
+		if (Physics.Raycast (r, out hit)) 
+		{
+			nomes = hit.collider.name ;
+		}
+		if(nomes == "Floor" && Input.GetMouseButtonDown(0))
+		return true;
+		return false;
+		}
+
 	// Update is called once per frame
 	void Update () 
 	{

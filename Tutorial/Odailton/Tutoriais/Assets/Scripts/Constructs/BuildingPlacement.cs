@@ -8,8 +8,14 @@ public class BuildingPlacement : MonoBehaviour {
 	private bool hasPlaced;
 	public LayerMask buildingsMask;
 	private PlacebleBuilding placebleBuildingOld;
-	
-	// Update is called once per frame
+
+	public GameObject[] buildings;
+	private BuildingPlacement buildin_placement;
+
+	void Start() {
+		buildin_placement = GetComponent<BuildingPlacement>();
+	}
+
 	void Update () {
 		Vector3 m = Input.mousePosition;
 		m = new Vector3 (m.x, m.y, transform.position.y);
@@ -24,8 +30,7 @@ public class BuildingPlacement : MonoBehaviour {
 				if (isLegalPosition ()) hasPlaced = true;
 			}
 		} 
-
-		{
+		
 			if (Input.GetMouseButtonDown (0)) 
 			{
 				RaycastHit hit = new RaycastHit();
@@ -46,8 +51,7 @@ public class BuildingPlacement : MonoBehaviour {
 			}
 		}
 
-	
-	}
+
 	
 
 	bool isLegalPosition()
@@ -66,5 +70,16 @@ public class BuildingPlacement : MonoBehaviour {
 		hasPlaced = false;
 		currentBuilding = ((GameObject)Instantiate (b)).transform;
 		placeable_building = currentBuilding.GetComponent<PlacebleBuilding> ();
+	}
+
+	void OnGUI()
+	{
+		for (int i = 0; i < buildings.Length; i++) 
+		{
+			if(GUI.Button(new Rect(Screen.width/20, Screen.height/15+Screen.height/12*i,100, 30), buildings[i].name))
+			{
+				buildin_placement.SetItem((GameObject)buildings[i]);
+			}
+		}
 	}
 }

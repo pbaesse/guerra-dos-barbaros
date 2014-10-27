@@ -77,16 +77,11 @@ public class Unidade: MonoBehaviour {
 
 	private void OnMouseDown()
 	{
-		if (!selecionada) 
-		{
+	
 			selecionada = true;
 			clicada = true;
-		} 
-		else 
-		{
-			selecionada = false;
-			clicada = false;
-		}
+	
+
 	}
 
 	private void OnMouseUp()
