@@ -1,0 +1,135 @@
+fileFormatVersion: 2
+guid: d692744e911433542a21af87ce540a9e
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature|Antebra__o D
+    100004: Armature|Antebra__o E
+    100006: Armature|Antebra__o E.001
+    100008: Armature|Barriga
+    100010: Armature|Bone
+    100012: Armature|Bra__o superior D
+    100014: Armature|Bra__o superior E
+    100016: Armature|Cabe__a
+    100018: Armature|Canela D
+    100020: Armature|Canela E
+    100022: Armature|Cotovelo D
+    100024: Armature|Cotovelo E
+    100026: Armature|Coxa D
+    100028: Armature|Coxa E
+    100030: Armature|Dedos 1 D
+    100032: Armature|Dedos 2 D
+    100034: Armature|IK Bra__o D
+    100036: Armature|IK Bra__o E
+    100038: Armature|IK Perna D
+    100040: Armature|IK Perna E
+    100042: Armature|Joelho D
+    100044: Armature|Joelho E
+    100046: Armature|P__ D
+    100048: Armature|P__ E
+    100050: Armature|Peito
+    100052: Armature|Polegar D
+    100054: Camera
+    100056: Circle
+    100058: Cube
+    100060: Lamp
+    100062: //RootNode
+    100064: Sphere
+    400000: Armature
+    400002: Armature|Antebra__o D
+    400004: Armature|Antebra__o E
+    400006: Armature|Antebra__o E.001
+    400008: Armature|Barriga
+    400010: Armature|Bone
+    400012: Armature|Bra__o superior D
+    400014: Armature|Bra__o superior E
+    400016: Armature|Cabe__a
+    400018: Armature|Canela D
+    400020: Armature|Canela E
+    400022: Armature|Cotovelo D
+    400024: Armature|Cotovelo E
+    400026: Armature|Coxa D
+    400028: Armature|Coxa E
+    400030: Armature|Dedos 1 D
+    400032: Armature|Dedos 2 D
+    400034: Armature|IK Bra__o D
+    400036: Armature|IK Bra__o E
+    400038: Armature|IK Perna D
+    400040: Armature|IK Perna E
+    400042: Armature|Joelho D
+    400044: Armature|Joelho E
+    400046: Armature|P__ D
+    400048: Armature|P__ E
+    400050: Armature|Peito
+    400052: Armature|Polegar D
+    400054: Camera
+    400056: Circle
+    400058: Cube
+    400060: Lamp
+    400062: //RootNode
+    400064: Sphere
+    2300000: Circle
+    2300002: Sphere
+    3300000: Circle
+    3300002: Sphere
+    4300000: Sphere
+    4300002: Circle
+    4300004: Cube
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
