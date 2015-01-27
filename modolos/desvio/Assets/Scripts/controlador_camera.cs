@@ -72,7 +72,7 @@ public class controlador_camera : MonoBehaviour {
 		float mouseX = Input.mousePosition.x;
 		float mouseY = Input.mousePosition.y;
 		// Camera movement
-		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))&& (transform.position.x > cameraLimits.LeftLimit - fim || transform.position.x < cameraLimits.RightLimit + fim || transform.position.z  < cameraLimits.TopLimit -30 ||  transform.position.z > cameraLimits.BottomLimit - 15))
+		if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))&& (transform.position.x > cameraLimits.LeftLimit - fim && transform.position.x < cameraLimits.RightLimit + fim && transform.position.z  < cameraLimits.TopLimit -30 &&  transform.position.z > cameraLimits.BottomLimit - 15))
 			camera.transform.Translate(-speed * .5f, 0.0f, 0.0f, Space.Self);
 		if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))&& transform.position.x > cameraLimits.LeftLimit - fim && transform.position.x < cameraLimits.RightLimit + fim && transform.position.z  < cameraLimits.TopLimit -30 &&  transform.position.z > cameraLimits.BottomLimit - 15)
 			camera.transform.Translate(speed * .5f, 0.0f, 0.0f, Space.Self);
