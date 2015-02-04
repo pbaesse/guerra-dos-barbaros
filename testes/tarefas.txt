@@ -1,0 +1,33 @@
+IA
+Mapa;
+--Mine Mapa;
+--FogWar;
+--Criação do mapa;
+--Fim de level.
+Câmera(Thyago);
+Unidades: --Movimentação 
+--Seleção;
+--Agrupamento;
+--Ataque;
+--Coleta de recursos;
+(Odailton)Construção: 
+--Criação;
+--Seleção;
+--Agrupamento;
+--Upgrade;
+--Geração de recursos;
+(Bruno)Recursos: 
+--Funcionamento;
+--Quantidade máxima;
+--Armazenamente/Utilização;
+--Geração no mapa;
+--Coleta;
+(Carlos)Blender: 
+--Modelo estatico;
+--Modelo Animado;
+--CG;
+--Ambiente e vegetação;
+
+(Bruno)Sonoplastia;
+
+(Carlos)Gimp: --Crir texturas estilo cartoon;
