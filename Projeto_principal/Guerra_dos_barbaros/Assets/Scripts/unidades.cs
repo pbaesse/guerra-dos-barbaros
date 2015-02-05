@@ -26,7 +26,7 @@ public class unidades : MonoBehaviour {
 	}
 	public  void OnSelected()
 	{
-		Debug.Log ("sele");
+		//Debug.Log ("sele");
 		if (!Input.GetKey (KeyCode.LeftControl)) 
 		{
 						selecionado = true;
@@ -34,14 +34,14 @@ public class unidades : MonoBehaviour {
 		}
 		if(Input.GetKey (KeyCode.LeftControl) && selecionado)
 		{
-			Debug.Log ("dessele");
+			//Debug.Log ("dessele");
 			selecionado = false;
 			renderer.material.color = Color.white;
 		}
 		//Mouse.unidades_selecionandas.Add(this.transform.gameObject);
 		else if(Input.GetKey (KeyCode.LeftControl) && !selecionado)
 		{
-			Debug.Log ("dessele");
+			//Debug.Log ("dessele");
 			selecionado = true;
 			renderer.material.color = Color.red;
 		}
@@ -79,7 +79,7 @@ public class unidades : MonoBehaviour {
 	}
 	public void atacar_unidade(int forca)
 	{
-		Debug.Log ("atacado");
+		//Debug.Log ("atacado");
 		vida -= forca;
 	}
 	void verifica_morte ()
@@ -89,14 +89,15 @@ public class unidades : MonoBehaviour {
 	}
 	public string nome_do_clicado()
 	{
-		if (Input.GetMouseButtonDown (0)) 
+		if (Input.GetMouseButtonDown (1)) 
 		{
 			raio = Camera.main.ScreenPointToRay (Input.mousePosition);
 			if (Physics.Raycast (raio, out bat)) 
 			{
+				Debug.Log(bat.collider.tag);
 				return bat.collider.tag;
 			}
-			
+
 		}
 		return "nada";
 	}	

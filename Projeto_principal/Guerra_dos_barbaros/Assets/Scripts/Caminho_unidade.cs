@@ -39,6 +39,7 @@ public class Caminho_unidade : MonoBehaviour {
 			}
 		}
 		Debug.DrawRay(r.origin,r.direction,Color.blue);
+		//Debug.Log (click);
 
 	
 	}

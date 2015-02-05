@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{71B1B3D3-C0DF-689A-0093-7355F92EF611}</ProjectGuid>
+	<ProjectGuid>{66EF3B27-A682-E469-E613-F4CBEA038DD3}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Caminho_unidade.cs" />
-     <Compile Include="Assets\Scripts\FlyingCamera.cs" />
      <Compile Include="Assets\Scripts\InputSystem.cs" />
      <Compile Include="Assets\Scripts\LevelBounds.cs" />
      <Compile Include="Assets\Scripts\Mouse.cs" />
@@ -76,15 +75,15 @@
      <None Include="Assets\ProjectorAdditiveHack.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\link.xml" />
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/20111114010162.IFRN.002/Desktop/começo_ataque/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/20111114010162.IFRN.002/guerra-dos-barbaros/Projeto_principal/Guerra_dos_barbaros/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/20111114010162.IFRN.002/Desktop/começo_ataque/Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/20111114010162.IFRN.002/guerra-dos-barbaros/Projeto_principal/Guerra_dos_barbaros/Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{D6B22521-4860-9C93-F65C-13ED1DE1DB52}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{D5442A6D-F53C-3F38-BDFB-0629212B52CF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

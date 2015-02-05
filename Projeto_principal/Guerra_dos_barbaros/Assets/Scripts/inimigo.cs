@@ -16,8 +16,13 @@ public class inimigo : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		unidades_inimigas = new List<GameObject>(GameObject.FindGameObjectsWithTag("unidade"));
 
+		atacar_unidade ();
+	}
+	void atacar_unidade()
+	{
+		unidades_inimigas = new List<GameObject>(GameObject.FindGameObjectsWithTag("unidade"));
+		
 		foreach (GameObject unidade in unidades_inimigas)
 		{
 			float  distancia = Vector3.Distance(unidade.transform.position, this.transform.position);
@@ -25,18 +30,17 @@ public class inimigo : MonoBehaviour {
 			if (distancia <= 15){
 				Debug.Log ("PERTO"+ unidade.name);
 				if(atacando){
-				unidade.SendMessage("atacar_unidade", forca, SendMessageOptions.DontRequireReceiver);
+					unidade.SendMessage("atacar_unidade", forca, SendMessageOptions.DontRequireReceiver);
 					atacando = false;
 				}
-			
+				
 			}
 			else
-						Debug.Log ("LONGE"+ unidade.name);	
+				Debug.Log ("LONGE"+ unidade.name);	
 		}
 		Debug.Log(atacando+" upadate");
 
 	}
-	void atacar_inimigo(int vida){}
 
 	IEnumerator esperar ()
 	{

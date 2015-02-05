@@ -44,7 +44,7 @@ public class quadrado : MonoBehaviour {
 				Unidades_selecionaveis.Remove(hit.transform.gameObject);
 				hit.transform.gameObject.SendMessage("OnSelected",SendMessageOptions.DontRequireReceiver);
 					ponto_do_mouse = hit.point;
-				Debug.Log("f");
+				//Debug.Log("f");
 			}
 		}
 		if (Input.GetMouseButtonUp(0))
@@ -55,7 +55,7 @@ public class quadrado : MonoBehaviour {
 			backupRect.width = 0;
 			backupRect.height = 0;
 			marqueeSize = Vector2.zero;
-			Debug.Log("fq");
+			//Debug.Log("fq");
 		}
 		if (Input.GetMouseButton(0))
 		{
@@ -107,7 +107,7 @@ public class quadrado : MonoBehaviour {
 			foreach (GameObject unit in Unidades_selecionadas_salvas)
 			{
 			
-			Debug.Log("salvar");
+			//Debug.Log("salvar");
 				unit.SendMessage("salvar",KeyCode.F1,SendMessageOptions.DontRequireReceiver);
 			}
 		}
@@ -117,7 +117,7 @@ public class quadrado : MonoBehaviour {
 			foreach (GameObject unit in Unidades_selecionadas_salvas)
 			{
 				
-				Debug.Log("salvar");
+				//Debug.Log("salvar");
 				unit.SendMessage("salvar",KeyCode.F2,SendMessageOptions.DontRequireReceiver);
 			}
 		}
@@ -127,7 +127,7 @@ public class quadrado : MonoBehaviour {
 			foreach (GameObject unit in Unidades_selecionaveis)
 			{
 			Unidades_selecionadas_salvas = new List<GameObject>(GameObject.FindGameObjectsWithTag("unidade"));
-			Debug.Log("carregar");
+			//Debug.Log("carregar");
 				unit.SendMessage("carregar",KeyCode.F6, SendMessageOptions.DontRequireReceiver);
 			}
 		}
@@ -136,7 +136,7 @@ public class quadrado : MonoBehaviour {
 			foreach (GameObject unit in Unidades_selecionaveis)
 			{
 				Unidades_selecionadas_salvas = new List<GameObject>(GameObject.FindGameObjectsWithTag("unidade"));
-				Debug.Log("carregar");
+				//Debug.Log("carregar");
 				unit.SendMessage("carregar",KeyCode.F7, SendMessageOptions.DontRequireReceiver);
 			}
 		}

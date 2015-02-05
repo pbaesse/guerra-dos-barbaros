@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{D6B22521-4860-9C93-F65C-13ED1DE1DB52}</ProjectGuid>
+	<ProjectGuid>{D5442A6D-F53C-3F38-BDFB-0629212B52CF}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -138,10 +138,10 @@
      <None Include="Assets\ProjectorAdditiveHack.shader" />
      <None Include="Assets\Plugins\AstarPathfindingProject\link.xml" />
  <Reference Include="Pathfinding.Ionic.Zip.Reduced">
- <HintPath>C:/Users/20111114010162.IFRN.002/Desktop/começo_ataque/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+ <HintPath>C:/Users/20111114010162.IFRN.002/guerra-dos-barbaros/Projeto_principal/Guerra_dos_barbaros/Assets/Plugins/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Pathfinding.JsonFx">
- <HintPath>C:/Users/20111114010162.IFRN.002/Desktop/começo_ataque/Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
+ <HintPath>C:/Users/20111114010162.IFRN.002/guerra-dos-barbaros/Projeto_principal/Guerra_dos_barbaros/Assets/Plugins/AstarPathfindingProject/Plugins/JsonFx/Pathfinding.JsonFx.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
