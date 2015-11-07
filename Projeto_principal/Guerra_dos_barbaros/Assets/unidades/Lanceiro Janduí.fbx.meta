@@ -1,0 +1,876 @@
+fileFormatVersion: 2
+guid: 0e41bae9f79debd4c8bb0d5ba587058a
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature|Antebra__o D
+    100004: Armature|Antebra__o E
+    100006: Armature|Antebra__o E.001
+    100008: Armature|Barriga
+    100010: Armature|Bone
+    100012: Armature|Bra__o superior D
+    100014: Armature|Bra__o superior D.001
+    100016: Armature|Bra__o superior E
+    100018: Armature|Bra__o superior E.002
+    100020: Armature|Cabe__a
+    100022: Armature|Canela D
+    100024: Armature|Canela E
+    100026: Armature|Cotovelo D
+    100028: Armature|Cotovelo E
+    100030: Armature|Coxa D
+    100032: Armature|Coxa E
+    100034: Armature|Dedos 1 D
+    100036: Armature|Dedos 2 D
+    100038: Armature|IK Bra__o D
+    100040: Armature|IK Bra__o E
+    100042: Armature|IK Perna D
+    100044: Armature|IK Perna E
+    100046: Armature|Joelho D
+    100048: Armature|Joelho E
+    100050: Armature|P__ D
+    100052: Armature|P__ E
+    100054: Armature|Peito
+    100056: Armature|Polegar D
+    100058: Camera
+    100060: Circle
+    100062: Cube
+    100064: Lamp
+    100066: //RootNode
+    100068: Sphere
+    400000: Armature
+    400002: Armature|Antebra__o D
+    400004: Armature|Antebra__o E
+    400006: Armature|Antebra__o E.001
+    400008: Armature|Barriga
+    400010: Armature|Bone
+    400012: Armature|Bra__o superior D
+    400014: Armature|Bra__o superior D.001
+    400016: Armature|Bra__o superior E
+    400018: Armature|Bra__o superior E.002
+    400020: Armature|Cabe__a
+    400022: Armature|Canela D
+    400024: Armature|Canela E
+    400026: Armature|Cotovelo D
+    400028: Armature|Cotovelo E
+    400030: Armature|Coxa D
+    400032: Armature|Coxa E
+    400034: Armature|Dedos 1 D
+    400036: Armature|Dedos 2 D
+    400038: Armature|IK Bra__o D
+    400040: Armature|IK Bra__o E
+    400042: Armature|IK Perna D
+    400044: Armature|IK Perna E
+    400046: Armature|Joelho D
+    400048: Armature|Joelho E
+    400050: Armature|P__ D
+    400052: Armature|P__ E
+    400054: Armature|Peito
+    400056: Armature|Polegar D
+    400058: Camera
+    400060: Circle
+    400062: Cube
+    400064: Lamp
+    400066: //RootNode
+    400068: Sphere
+    2300000: Circle
+    2300002: Sphere
+    3300000: Circle
+    3300002: Sphere
+    4300000: Sphere
+    4300002: Circle
+    4300004: Cube
+    6400000: Circle
+    6400002: Sphere
+    7400000: Armature|ArmatureAction.002
+    7400002: correndo
+    7400004: parado
+    7400006: parado_tempo
+    7400008: atacando
+    7400010: morrendo
+    7400012: comecando_correr
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.002
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 0
+      lastFrame: 199
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D/Armature|Dedos 2 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Polegar D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E/Armature|Antebra__o E.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E.002
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D/Armature|Canela
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E/Armature|Canela
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito/Armature|Cabe__a
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D/Armature|P__ D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E/Armature|P__ E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho E
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: correndo
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 177
+      lastFrame: 199
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D/Armature|Dedos 2 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Polegar D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E/Armature|Antebra__o E.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E.002
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D/Armature|Canela
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E/Armature|Canela
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito/Armature|Cabe__a
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D/Armature|P__ D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E/Armature|P__ E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho E
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: parado
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 2
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D/Armature|Dedos 2 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Polegar D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E/Armature|Antebra__o E.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E.002
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D/Armature|Canela
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E/Armature|Canela
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito/Armature|Cabe__a
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D/Armature|P__ D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E/Armature|P__ E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho E
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: parado_tempo
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 22
+      lastFrame: 55
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D/Armature|Dedos 2 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Polegar D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E/Armature|Antebra__o E.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E.002
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D/Armature|Canela
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E/Armature|Canela
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito/Armature|Cabe__a
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D/Armature|P__ D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E/Armature|P__ E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho E
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: atacando
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 58
+      lastFrame: 125
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D/Armature|Dedos 2 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Polegar D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E/Armature|Antebra__o E.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E.002
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D/Armature|Canela
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E/Armature|Canela
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito/Armature|Cabe__a
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D/Armature|P__ D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E/Armature|P__ E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho E
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: morrendo
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 89
+      lastFrame: 163
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D/Armature|Dedos 2 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Polegar D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E/Armature|Antebra__o E.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E.002
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D/Armature|Canela
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E/Armature|Canela
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito/Armature|Cabe__a
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D/Armature|P__ D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E/Armature|P__ E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho E
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: comecando_correr
+      takeName: Armature|ArmatureAction.002
+      firstFrame: 170
+      lastFrame: 177
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Armature|Bone
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Dedos 1 D/Armature|Dedos 2 D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D/Armature|Antebra__o
+          D/Armature|Polegar D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior D.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E/Armature|Antebra__o
+          E/Armature|Antebra__o E.001
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Bra__o superior E.002
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa D/Armature|Canela
+          D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Coxa E/Armature|Canela
+          E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Barriga/Armature|Peito/Armature|Cabe__a
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Cotovelo E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Bra__o E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna D/Armature|P__ D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|IK Perna E/Armature|P__ E
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho D
+        weight: 1
+      - path: Armature/Armature|Bone/Armature|Joelho E
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Circle
+        weight: 1
+      - path: Cube
+        weight: 1
+      - path: Lamp
+        weight: 1
+      - path: Sphere
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .5
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 1
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
