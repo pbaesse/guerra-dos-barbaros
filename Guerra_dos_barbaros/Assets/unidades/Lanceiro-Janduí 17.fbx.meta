@@ -1,0 +1,174 @@
+fileFormatVersion: 2
+guid: bed05166c45825b4d95be5ba93cec3d5
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Antebra__o D
+    100002: Antebra__o E
+    100004: Antebra__o E.001
+    100006: Antebra__o E.001_end
+    100008: Armature
+    100010: Barriga
+    100012: Bone
+    100014: Bra__o superior D
+    100016: Bra__o superior D.001
+    100018: Bra__o superior D.001_end
+    100020: Bra__o superior E
+    100022: Bra__o superior E.002
+    100024: Bra__o superior E.002_end
+    100026: Cabe__a
+    100028: Cabe__a_end
+    100030: Camera
+    100032: Canela D
+    100034: Canela D_end
+    100036: Canela E
+    100038: Canela E_end
+    100040: Circle
+    100042: Cotovelo D
+    100044: Cotovelo D_end
+    100046: Cotovelo E
+    100048: Cotovelo E_end
+    100050: Coxa D
+    100052: Coxa E
+    100054: Cube
+    100056: Dedos 1 D
+    100058: Dedos 2 D
+    100060: Dedos 2 D_end
+    100062: IK Bra__o D
+    100064: IK Bra__o D_end
+    100066: IK Bra__o E
+    100068: IK Bra__o E_end
+    100070: IK Perna D
+    100072: IK Perna E
+    100074: Joelho D
+    100076: Joelho D_end
+    100078: Joelho E
+    100080: Joelho E_end
+    100082: Lamp
+    100084: Lamp.001
+    100086: //RootNode
+    100088: P__ D
+    100090: P__ D_end
+    100092: P__ E
+    100094: P__ E_end
+    100096: Peito
+    100098: Polegar D
+    100100: Polegar D_end
+    100102: Sphere
+    400000: Antebra__o D
+    400002: Antebra__o E
+    400004: Antebra__o E.001
+    400006: Antebra__o E.001_end
+    400008: Armature
+    400010: Barriga
+    400012: Bone
+    400014: Bra__o superior D
+    400016: Bra__o superior D.001
+    400018: Bra__o superior D.001_end
+    400020: Bra__o superior E
+    400022: Bra__o superior E.002
+    400024: Bra__o superior E.002_end
+    400026: Cabe__a
+    400028: Cabe__a_end
+    400030: Camera
+    400032: Canela D
+    400034: Canela D_end
+    400036: Canela E
+    400038: Canela E_end
+    400040: Circle
+    400042: Cotovelo D
+    400044: Cotovelo D_end
+    400046: Cotovelo E
+    400048: Cotovelo E_end
+    400050: Coxa D
+    400052: Coxa E
+    400054: Cube
+    400056: Dedos 1 D
+    400058: Dedos 2 D
+    400060: Dedos 2 D_end
+    400062: IK Bra__o D
+    400064: IK Bra__o D_end
+    400066: IK Bra__o E
+    400068: IK Bra__o E_end
+    400070: IK Perna D
+    400072: IK Perna E
+    400074: Joelho D
+    400076: Joelho D_end
+    400078: Joelho E
+    400080: Joelho E_end
+    400082: Lamp
+    400084: Lamp.001
+    400086: //RootNode
+    400088: P__ D
+    400090: P__ D_end
+    400092: P__ E
+    400094: P__ E_end
+    400096: Peito
+    400098: Polegar D
+    400100: Polegar D_end
+    400102: Sphere
+    2300000: Circle
+    2300002: Sphere
+    3300000: Circle
+    3300002: Sphere
+    4300000: Sphere
+    4300002: Circle
+    4300004: Cube
+    7400000: Armature|ArmatureAction.002
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Cube
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .600000024
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
